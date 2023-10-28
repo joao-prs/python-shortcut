@@ -1,7 +1,7 @@
 import os
 
 # checa 
-caminho_pasta = "/backup_automatic"
+caminho_pasta = "/pasta_teste"
 
 # Verifica se a pasta existe
 if not os.path.exists(caminho_pasta):
@@ -9,5 +9,5 @@ if not os.path.exists(caminho_pasta):
   os.makedirs(caminho_pasta)
   print(f"A pasta '{caminho_pasta}' foi criada com sucesso!")
 else:
-  # ja tinha, bobo
+  # ja tinha
   print(f"A pasta '{caminho_pasta}' já existe.")

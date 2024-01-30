@@ -5,3 +5,8 @@
 </p>
 
 Um repositório para atalhos python, conteúdo para aplicações rápidas e diversas. 🐛🖥️ Futuramente com mais códigos rápidos e soluções.
+
+para compilar em C
+```bash
+gcc game_1.c -o game_1 -lSDL2 
+```
